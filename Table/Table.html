@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+
+<body>
+    <center>
+        <h1>Tables</h1>
+        <ol>
+            <li>
+                <h2>EMPLOYEE INFORMATION</h2>
+                <table class="table" border="1" width="50%">
+                    <tr>
+                        <th class="E-I" colspan="2">Employee ID and Name</th>
+                        <th class="E-I">Position</th>
+                        <th class="E-I">Department</th>
+                        <th class="E-I">Salary</th>
+                        <th class="E-I">Joining Date</th>
+                    </tr>
+                    <tr>
+                        <td class="EI" colspan="2">101 - John Doe</td>
+                        <td class="EI">Manager</td>
+                        <td class="EI">Sales</td>
+                        <td class="EI">$65,000</td>
+                        <td class="EI">2022-01-05</td>
+                    </tr>
+                    <tr>
+                        <td class="EI" colspan="2">102 - Jane Smith</td>
+                        <td class="EI">Analyst</td>
+                        <td class="EI">Finance</td>
+                        <td class="EI">$50,000</td>
+                        <td class="EI">2022-03-10</td>
+                    </tr>
+
+                    <tr>
+                        <td class="EI" colspan="2">103 - Michael Johnson</td>
+                        <td class="EI">IT</td>
+                        <td class="EI">Finance</td>
+                        <td class="EI">$55,000</td>
+                        <td class="EI">2022-02-05</td>
+                    </tr>
+
+                    <tr>
+                        <td class="EI" colspan="4">Total Employees</td>
+                        <td class="EI" colspan="2">3</td>
+
+                    </tr>
+                    <tr>
+                        <td class="EI" colspan="4">Average Salary</td>
+                        <td class="EI">$56,666.67</td>
+                        <td class="EI"></td>
+
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <h2>
+                    TIME TABLE
+                </h2>
+
+            </li>
+            <table border="1" width="50%">
+                <tr align="center">
+
+                    <th class="T-T">Day/Period</th>
+                    <th class="T-T">I <br>9:30-10:20</th>
+                    <th class="T-T">II <br>10:20-11:10</th>
+                    <th class="T-T">III <br>11:10-12:00</th>
+                    <th class="T-T">12:00-12:40</th>
+                    <th class="T-T">IV <br>12:40-1:30</th>
+                    <th class="T-T">V <br>1:30-2:20</th>
+                    <th class="T-T">VI <br>2:20-3:10</th>
+                    <th class="T-T">VII <br>3:10-4:00</th>
+                </tr>
+                <tr align="center">
+
+                    <td class="TT">Monday</td>
+                    <td class="TT">Eng</td>
+                    <td class="TT">Maths</td>
+                    <td class="TT">Chem</td>
+                    <td class="TT" rowspan="5">Lunch</td>
+                    <td class="TT" colspan="3">Lab</td>
+                    <td class="TT">Phys</td>
+                </tr>
+                <tr align="center">
+                    <td class="TT">Tuesday</td>
+                    <td class="TT" colspan="3">Lab</td>
+                    <td class="TT">Eng</td>
+                    <td class="TT">Che</td>
+                    <td class="TT">Maths</td>
+                    <td class="TT">Sports</td>
+                </tr>
+                <tr align="center">
+                    <td class="TT">Wednesday</td>
+                    <td class="TT">Maths</td>
+                    <td class="TT">Phy</td>
+                    <td class="TT">Eng</td>
+                    <td class="TT">Chem</td>
+                    <td class="TT" colspan="3">Lab</td>
+                </tr>
+                <tr align="center">
+                    <td class="TT">Thursday</td>
+                    <td class="TT">Phys</td>
+                    <td class="TT">Eng</td>
+                    <td class="TT">Chem</td>
+                    <td class="TT" colspan="3">Lab</td>
+                    <td class="TT">Maths</td>
+                </tr>
+                <tr align="center">
+                    <td class="TT">Friday</td>
+                    <td class="TT">Phys</td>
+                    <td class="TT">Eng</td>
+                    <td class="TT">Chem</td>
+                    <td class="TT" colspan="3">Lab</td>
+                    <td class="TT">Maths</td>
+                </tr>
+            </table>
+
+            <li>
+                <h2>
+                    SCHEDULE OF SEMINAR
+                </h2>
+
+            </li>
+            <table border="1" width="50%">
+                <tr align="center">
+                    <th class="S-S" rowspan="3">Day</th>
+                    <th class="S-S" colspan="3">Seminar</th>
+                </tr>
+
+                <tr align="center">
+                    <th class="S-S" colspan="2">Schedule</th>
+                    <th class="S-S" rowspan="2">Topic</th>
+                </tr>
+
+                <tr align="center">
+                    <th class="S-S">Begin</th>
+                    <th class="S-S">End</th>
+                </tr>
+                
+                <tr align="center">
+                    <td class="SS" rowspan="2">Monday</td>
+                    <td class="SS" rowspan="2">8:00 a.m.</td>
+                    <td class="SS" rowspan="2">5:00 p.m.</td>
+                    <td class="SS">Introduction to XML</td>
+                </tr>
+
+                <tr align="center">
+                    <td class="SS">Validity: DTD and Relax NG</td>
+                </tr>
+
+                <tr align="center">
+                    <td class="SS" rowspan="3">Tuesday</td>
+                    <td class="SS">8:00 a.m.</td>
+                    <td class="SS">11:00 a.m.</td>
+                    <td class="SS">XPath</td>
+                </tr>
+
+                <tr align="center">
+                    <td class="SS">11:00 a.m.</td>
+                    <td class="SS">2:00 p.m.</td>
+                    <td class="SS" rowspan="2">XSL Transformtions</td>
+                </tr>
+
+                <tr align="center">
+                    <td class="SS">2:00 p.m.</td>
+                    <td class="SS">5:00 p.m.</td>
+                </tr>
+
+                <tr align="center">
+                    <td class="SS">Wednesday</td>
+                    <td class="SS">8:00 a.m.</td>
+                    <td class="SS">12:00 p.m.</td>
+                    <td class="SS">Xml Formatting</td>
+                </tr>
+                
+            </table>
+        </ol>
+        <h2><a href="../index.html">Go Back</a></h2>
+    </center>
+</body>
+
+</html>
